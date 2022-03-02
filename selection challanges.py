@@ -1,5 +1,7 @@
-number = int(input('input a number between 10 and 20'))
-if number > 10 and number < 20:
-    print('thank you')
+colour = input('input your favourite colour')
+
+if colour == 'red'or colour == 'RED'or colour == 'Red':
+         print('i like red too')
+
 else:
-    print('incorrect answer')
+    print('i dont like',colour,',',colour,'is for losers')
